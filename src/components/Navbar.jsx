@@ -1,8 +1,8 @@
 // src/components/Navbar.jsx
-import { useState } from "react";
+// import { useState } from "react";
 
 const Navbar = () => {
-  const [isDark, setIsDark] = useState(true);
+  // const [isDark, setIsDark] = useState(true);
 
   return (
     <div className="w-full flex justify-center">
