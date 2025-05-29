@@ -4,8 +4,8 @@ import SectionWrapper from "../components/SectionWrapper";
 const About = () => {
   return (
     <SectionWrapper>
-      <p className="text-4xl  font-semibold mb-4 border-b border-gray-700 inline-block">
-        About me
+      <p className="text-4xl  font-semibold mb-4  flex gap-2">
+        <span className="border-b border-gray-700">About me</span> <img src="/images/Arrow4.png" alt="" className="w-30 h-2 mt-5"/>
       </p>
       <p className="text-gray-300 leading-relaxed max-w-3xl">
         Hi there! I'm [Shuvo] — a passionate developer with a love for tech, logic, and creativity. 

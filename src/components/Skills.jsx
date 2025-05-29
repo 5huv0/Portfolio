@@ -65,15 +65,15 @@ const skills = [
   { 
     name: "MACHINE LEARNING", 
     color: "text-red-400",
-    hoverBg: "bg-[url('https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80')]"
+    hoverBg: "bg-[url('https://eu-central.storage.cloudconvert.com/tasks/c83acae8-f78f-447a-a4b0-4b3f0f6552fc/mlpic.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20250529%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20250529T165739Z&X-Amz-Expires=86400&X-Amz-Signature=a037bcc7cf33e5114921eba6cae27bd05c56a4222ff3e511011dce6a30f57b91&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22mlpic.png%22&response-content-type=image%2Fpng&x-id=GetObject')]"
   },
 ];
 
 const Skills = () => {
   return (
     <SectionWrapper>
-      <p className="text-4xl font-semibold mb-6 border-b border-gray-700 inline-block">
-        Skills
+      <p className="text-4xl font-semibold mb-6 border-b border-gray-700 flex gap-2">
+        <span>Skills</span> <img src="/images/Arrow4.png" alt="" className="w-30 h-2 mt-5"/>
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl">
         {skills.map((skill, index) => (

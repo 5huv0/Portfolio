@@ -4,8 +4,8 @@ import SectionWrapper from "../components/SectionWrapper";
 const Experience = () => {
   return (
     <SectionWrapper>
-      <p className="text-4xl font-semibold mb-4 border-b border-gray-700 inline-block">
-        Experience
+      <p className="text-4xl font-semibold mb-4  flex gap-2">
+        <span className="border-b border-gray-700">Experience </span><img src="/images/Arrow4.png" alt="" className="w-30 h-2 mt-5"/>
       </p>
 
       <div className="mb-6">
