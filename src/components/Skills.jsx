@@ -72,8 +72,8 @@ const skills = [
 const Skills = () => {
   return (
     <SectionWrapper>
-      <p className="text-4xl font-semibold mb-6 border-b border-gray-700 flex gap-2">
-        <span>Skills</span> <img src="/images/Arrow4.png" alt="" className="w-30 h-2 mt-5"/>
+      <p className="text-4xl font-semibold  flex gap-5">
+        <span className="mb-6 border-b border-gray-700">Skills</span> <img src="/images/Arrow4.png" alt="" className="w-30 h-2 mt-5"/>
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl">
         {skills.map((skill, index) => (
